@@ -27,7 +27,7 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 COPY . /app/
 
 # Expose port 80 and 1337
-EXPOSE 80 1337
+EXPOSE
 
 # Define the default command to run the app using Python's module mode.
 ENTRYPOINT ["python", "-m", "g4f.cli"]
